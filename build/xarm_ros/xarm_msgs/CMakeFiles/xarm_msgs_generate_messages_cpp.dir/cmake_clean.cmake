@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/CIOState.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/Call.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/ClearErr.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/ConfigToolModbus.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/FtCaliLoad.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetAnalogIO.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetControllerDigitalIO.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetDigitalIO.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetErr.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetFloat32List.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetInt32.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GetSetModbusData.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GripperConfig.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GripperMove.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/GripperState.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/IOState.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/Move.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/MoveAxisAngle.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/MoveVelo.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/MoveVelocity.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/PlayTraj.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/RobotMsg.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetAxis.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetControllerAnalogIO.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetDigitalIO.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetFloat32.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetInt16.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetLoad.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetModbusTimeout.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetMultipleInts.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetString.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/SetToolModbus.h"
+  "/home/karthik/learn_ros_ws/devel/include/xarm_msgs/TCPOffset.h"
+  "CMakeFiles/xarm_msgs_generate_messages_cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/xarm_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
